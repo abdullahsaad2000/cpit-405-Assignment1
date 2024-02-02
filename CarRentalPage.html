@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Car Rental Form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <style>
+    form {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
+  <body>
+    <h1>Car Rental Form</h1>
+    <form class="form">
+      <label for="name">First Name:</label>
+      <input type="text" id="name">
+      <br>
+      <label for="name">Last Name:</label>
+      <input type="text" id="name">
+      <br>
+      <label for="email">Email:</label>
+      <input type="text" id="email">
+      <br>
+      <label for="number">Phone:</label>
+      <input type="text" id="number">
+      <br>
+      <label for="dateOfBirth">Date of Birth:</label>
+      <input type="date" id="dateOfBirth">
+      <br>
+      <label for="car">Car type:</label> 
+      <select id="car">
+      <option value="smallSedan">Small Sedan</option>
+      <option value="mediumSedan">Medium Sedan</option>
+      <option value="SUV">SUV</option>
+      <option value="fullSized">Full-Sized car</option>
+      </select>
+      <br>
+      <label for="duration">Renatal Duration:</label>
+      <input type="number" name="quantity" min="1" max="100" step="1" id="duration">
+      <br>
+      <label for="insurance">Add Comprehensive Insurance Covarge:</label>
+      <input type="checkbox" id="insurance">
+      <br>
+      <label for="startDate">Rental Start Date:</label>
+      <input type="date" id="startDate">
+      <br>
+      <label for="endDate">Rental End Date:</label>
+      <input type="date" id="endDate">
+      <br>
+      <label for="comment">Additional Comments:</label>
+      <textarea name="message" rows="2" cols="20" id="comment">
+      </textarea>
+      <br>
+      <label for="drivingLicense">Upload Driving License:</label>
+       <button id="drivingLicense">Browse...</button>
+      <span style="font-size: smaller;">no file selected.</span>
+      <br>
+      <input type="submit" value="Submit">
+
+
+  </form>
+
+  </body>
+</html>
